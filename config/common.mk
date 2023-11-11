@@ -193,3 +193,6 @@ $(call inherit-product, vendor/voltage/themes/icon_packs/icon_packs.mk)
 
 # Include extra packages
 include vendor/voltage/config/packages.mk
+
+# Gapps
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
