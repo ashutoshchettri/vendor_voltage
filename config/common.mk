@@ -196,3 +196,6 @@ include vendor/voltage/config/packages.mk
 
 # Gapps
 $(call inherit-product-if-exists, vendor/google/gms/config.mk)
+
+# ThemeOverlays
+include packages/overlays/Themes/themes.mk
